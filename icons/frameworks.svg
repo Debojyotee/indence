@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 64 64"
+     fill="none"
+     stroke="#98AAFF"
+     stroke-width="1.4">
+
+    <path d="M8 21
+             L32 9
+             L56 21
+             L32 34
+             Z"/>
+
+    <path d="M8 31
+             L32 44
+             L56 31"/>
+
+    <path d="M8 41
+             L32 54
+             L56 41"/>
+
+</svg>
