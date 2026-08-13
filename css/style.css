@@ -4470,3 +4470,131 @@ svg path {
         line-height: 1.7;
     }
 }
+/* =========================================================
+   FRAMEWORK CARDS - OVERLAP FIX
+   ========================================================= */
+
+.framework-card {
+    min-width: 0;
+    min-height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 18px;
+    box-sizing: border-box;
+
+    border: 1px solid #292d36;
+    background: #020407;
+
+    color: #f2f2f2;
+    text-decoration: none;
+
+    overflow: hidden;
+}
+
+/* ICON + TITLE */
+.framework-card-content {
+    min-width: 0;
+    flex: 1 1 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+/* ICON */
+.framework-card-content img {
+    width: 32px;
+    height: 32px;
+
+    flex: 0 0 32px;
+
+    margin-right: 14px;
+
+    object-fit: contain;
+}
+
+/* TITLE */
+.framework-card-content > span {
+    min-width: 0;
+
+    flex: 1 1 auto;
+
+    color: #f2f2f2;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+
+    /* IMPORTANT: allow the title to shrink */
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ARROW */
+.framework-card .framework-arrow {
+    flex: 0 0 auto;
+
+    margin-left: 12px;
+
+    color: #91a5ff;
+
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1;
+
+    position: relative;
+    z-index: 2;
+
+    background: #020407;
+    padding-left: 4px;
+
+    transition: transform 0.25s ease;
+}
+
+/* HOVER */
+.framework-card:hover {
+    background: #050810;
+    border-color: #3a414e;
+}
+
+.framework-card:hover .framework-arrow {
+    transform: translateX(5px);
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1200px) {
+
+    .framework-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 650px) {
+
+    .framework-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .framework-card {
+        min-height: 68px;
+        padding: 0 16px;
+    }
+
+    .framework-card-content > span {
+        font-size: 14px;
+    }
+
+}
