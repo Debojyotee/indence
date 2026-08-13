@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Approach | Indence</title>
+
+    <meta name="description"
+          content="Indence approach to building and scaling life sciences capabilities.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+    <!-- USE THE EXISTING SITE CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ONLY PAGE-SPECIFIC INTERACTION -->
+    <style>
+        /* Foundation cards remain part of the existing site system,
+           but now have the same restrained interactive behavior. */
+
+        .foundation-card {
+            position: relative;
+            cursor: pointer;
+            transition:
+                background-color 0.25s ease,
+                border-color 0.25s ease,
+                transform 0.25s ease;
+        }
+
+        .foundation-card:hover {
+            background: #050810;
+            border-color: #46506a;
+            transform: translateY(-2px);
+        }
+
+        .foundation-card .approach-icon {
+            transition:
+                transform 0.25s ease,
+                filter 0.25s ease,
+                opacity 0.25s ease;
+        }
+
+        .foundation-card:hover .approach-icon {
+            transform: translateY(-2px);
+            filter: drop-shadow(0 0 8px rgba(142, 165, 255, 0.25));
+        }
+
+        .scale-step {
+            transition:
+                background-color 0.25s ease,
+                border-color 0.25s ease,
+                transform 0.25s ease;
+        }
+
+        .scale-step:hover {
+            background: rgba(5, 8, 16, 0.55);
+            border-top-color: #7189d0;
+            transform: translateY(-2px);
+        }
+
+        .scale-step h3,
+        .scale-step p,
+        .scale-step > span {
+            transition: color 0.25s ease;
+        }
+
+        .scale-step:hover h3 {
+            color: #ffffff;
+        }
+
+        .scale-step:hover p {
+            color: #aeb5c2;
+        }
+
+        .scale-step:hover > span {
+            color: #aeb9ff;
+        }
+
+        .approach-icon {
+            width: 58px;
+            height: 58px;
+            display: block;
+            color: #c8cbd2;
+        }
+
+        .approach-icon svg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .framework-card {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+
+        <span class="logo-mark">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+
+        <span class="logo-text">
+            INDENCE
+        </span>
+
+    </a>
+
+
+    <nav class="navigation">
+
+        <a href="what-we-do.html">
+            What We Do
+        </a>
+
+        <a href="capabilities.html">
+            Capabilities
+        </a>
+
+        <a href="our-approach.html"
+           class="active">
+            Our Approach
+        </a>
+
+        <a href="#">
+            About Us
+        </a>
+
+    </nav>
+
+
+    <a href="mailto:support@indence.com"
+       class="contact-button">
+
+        <span>
+            Contact Us
+        </span>
+
+        <span class="button-arrow">
+            →
+        </span>
+
+    </a>
+
+</header>
+
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main>
+
+
+<!-- =====================================================
+     APPROACH HERO
+===================================================== -->
+
+<section class="inner-hero approach-hero">
+
+    <div class="inner-hero-content">
+
+        <div class="page-eyebrow">
+            OUR APPROACH
+        </div>
+
+        <h1>
+            Three foundations.<br>
+            Built for the <span>AI era.</span>
+        </h1>
+
+    </div>
+
+    <div class="inner-hero-description">
+
+        <p>
+            We combine operating model expertise,
+            talent capability and AI innovation
+            to build high-performing teams
+            for life sciences organizations.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     THREE FOUNDATIONS
+===================================================== -->
+
+<section class="foundations-section">
+
+    <div class="section-label">
+        THREE FOUNDATIONS
+    </div>
+
+
+    <div class="foundations-grid">
+
+
+        <!-- 01 OPERATING MODEL -->
+
+        <a href="#operating-model"
+           class="foundation-card">
+
+            <span class="catalog-number">
+                01
+            </span>
+
+
+            <div class="approach-icon">
+
+                <svg viewBox="0 0 64 64"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     aria-hidden="true">
+
+                    <circle
+                        cx="32"
+                        cy="32"
+                        r="22"
+                        stroke="currentColor"
+                        stroke-width="1.5"/>
+
+                    <ellipse
+                        cx="32"
+                        cy="32"
+                        rx="10"
+                        ry="22"
+                        stroke="currentColor"
+                        stroke-width="1.5"/>
+
+                    <path
+                        d="M10 32H54"
+                        stroke="currentColor"
+                        stroke-width="1.5"/>
+
+                    <path
+                        d="M15 20C25 24 39 24 49 20"
+                        stroke="currentColor"
+                        stroke-width="1.5"/>
+
+                    <path
+                        d="M15 44C25 40 39 40 49 44"
+                        stroke="currentColor"
+                        stroke-width="1.5"/>
+
+                </svg>
+
+            </div>
+
+
+            <h2>
+                OPERATING MODEL
+            </h2>
+
+            <p>
+                We design the right capabilities,
+                organizational structure, governance
+                and ways of working to deliver
+                sustainable performance at scale.
+            </p>
+
+        </a>
+
+
+
+        <!-- 02 TALENT -->
+
+        <a href="#talent"
+           class="foundation-card">
+
+            <span class="catalog-number">
+                02
+            </span>
+
+
+            <div class="approach-icon">
+
+                <svg viewBox="0 0 64 64"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     aria-hidden="true">
+
+                    <circle
+                        cx="24"
+                        cy="22"
+                        r="7"
+                        stroke="currentColor"
+                        stroke-width="1.7"/>
+
+                    <circle
+                        cx="42"
+                        cy="22"
+                        r="7"
+                        stroke="currentColor"
+                        stroke-width="1.7"/>
+
+                    <path
+                        d="M10 48V42C10 35 15 30 22 30H26C33 30 38 35 38 42V48"
+                        stroke="currentColor"
+                        stroke-width="1.7"/>
+
+                    <path
+                        d="M30 48V42C30 35 35 30 42 30H44C51 30 56 35 56 42V48"
+                        stroke="currentColor"
+                        stroke-width="1.7"/>
+
+                </svg>
+
+            </div>
+
+
+            <h2>
+                TALENT
+            </h2>
+
+            <p>
+                We build and deploy high-performing
+                teams with the right skills, experience
+                and mindset to solve complex
+                challenges.
+            </p>
+
+        </a>
+
+
+
+        <!-- 03 AI -->
+
+        <a href="#ai"
+           class="foundation-card">
+
+            <span class="catalog-number">
+                03
+            </span>
+
+
+            <div class="approach-icon">
+
+                <svg viewBox="0 0 64 64"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     aria-hidden="true">
+
+                    <g
+                        stroke="currentColor"
+                        stroke-width="1.5">
+
+                        <circle cx="32" cy="11" r="3"/>
+                        <circle cx="18" cy="18" r="3"/>
+                        <circle cx="46" cy="18" r="3"/>
+                        <circle cx="11" cy="32" r="3"/>
+                        <circle cx="53" cy="32" r="3"/>
+                        <circle cx="18" cy="46" r="3"/>
+                        <circle cx="46" cy="46" r="3"/>
+                        <circle cx="32" cy="53" r="3"/>
+                        <circle cx="32" cy="32" r="5"/>
+
+                    </g>
+
+                    <g
+                        stroke="currentColor"
+                        stroke-width="1">
+
+                        <path d="M32 14V27"/>
+                        <path d="M21 20L28 28"/>
+                        <path d="M43 20L36 28"/>
+                        <path d="M14 32H27"/>
+                        <path d="M50 32H37"/>
+                        <path d="M21 44L28 36"/>
+                        <path d="M43 44L36 36"/>
+                        <path d="M32 50V37"/>
+
+                    </g>
+
+                </svg>
+
+            </div>
+
+
+            <h2>
+                AI
+            </h2>
+
+            <p>
+                We embed AI into workflows, tools
+                and decision-making, unlocking
+                productivity, intelligence and
+                innovation.
+            </p>
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FROM STRATEGY TO SCALE
+===================================================== -->
+
+<section class="scale-section">
+
+    <div class="section-label">
+        FROM STRATEGY TO SCALE
+    </div>
+
+
+    <div class="scale-line"></div>
+
+
+    <div class="scale-grid">
+
+
+        <article class="scale-step">
+
+            <span>01</span>
+
+            <h3>
+                Discover &amp; Align
+            </h3>
+
+            <p>
+                Understand your strategy,
+                challenges, opportunities
+                and desired outcomes.
+            </p>
+
+        </article>
+
+
+
+        <article class="scale-step">
+
+            <span>02</span>
+
+            <h3>
+                Design the Blueprint
+            </h3>
+
+            <p>
+                Define the capability strategy,
+                operating model, talent
+                architecture and tech stack.
+            </p>
+
+        </article>
+
+
+
+        <article class="scale-step">
+
+            <span>03</span>
+
+            <h3>
+                Build &amp; Mobilize
+            </h3>
+
+            <p>
+                Recruit, upskill and set up
+                the team, processes and
+                governance to start strong.
+            </p>
+
+        </article>
+
+
+
+        <article class="scale-step">
+
+            <span>04</span>
+
+            <h3>
+                Operate &amp; Optimize
+            </h3>
+
+            <p>
+                Drive performance with
+                the right metrics, tools
+                and ways of working.
+            </p>
+
+        </article>
+
+
+
+        <article class="scale-step">
+
+            <span>05</span>
+
+            <h3>
+                Scale &amp; Evolve
+            </h3>
+
+            <p>
+                Expand scope, build maturity
+                and continuously create
+                more value.
+            </p>
+
+        </article>
+
+
+
+        <article class="scale-step">
+
+            <span>06</span>
+
+            <h3>
+                Innovate for the Future
+            </h3>
+
+            <p>
+                Leverage AI and emerging
+                technologies to reinvent
+                capabilities and stay ahead.
+            </p>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FRAMEWORKS & PLAYBOOKS
+===================================================== -->
+
+<section class="framework-section">
+
+    <div class="section-label">
+        OUR FRAMEWORKS &amp; PLAYBOOKS
+    </div>
+
+
+    <div class="framework-grid">
+
+
+        <a href="#capability-blueprint"
+           class="framework-card">
+
+            <span>
+                <strong>01</strong>
+                &nbsp; Capability Blueprint
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+        <a href="#ai-adoption"
+           class="framework-card">
+
+            <span>
+                <strong>02</strong>
+                &nbsp; AI Adoption Framework
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+        <a href="#governance"
+           class="framework-card">
+
+            <span>
+                <strong>03</strong>
+                &nbsp; Governance Framework
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+        <a href="#competency"
+           class="framework-card">
+
+            <span>
+                <strong>04</strong>
+                &nbsp; Functional Competency Matrix
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+        <a href="#leadership"
+           class="framework-card">
+
+            <span>
+                <strong>05</strong>
+                &nbsp; Leadership Scorecards
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+        <a href="#maturity"
+           class="framework-card">
+
+            <span>
+                <strong>06</strong>
+                &nbsp; Capability Maturity Model
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+        <a href="#kpi"
+           class="framework-card">
+
+            <span>
+                <strong>07</strong>
+                &nbsp; KPI Library
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+        <a href="#career"
+           class="framework-card">
+
+            <span>
+                <strong>08</strong>
+                &nbsp; Career Architecture
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+        <a href="#hiring"
+           class="framework-card">
+
+            <span>
+                <strong>09</strong>
+                &nbsp; Hiring Playbooks
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+        <a href="#delivery"
+           class="framework-card">
+
+            <span>
+                <strong>10</strong>
+                &nbsp; Delivery Playbooks
+            </span>
+
+            <strong>
+                →
+            </strong>
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+
+    <div class="footer-brand">
+
+        <a href="index.html"
+           class="logo">
+
+            <span class="logo-mark">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+
+            <span class="logo-text">
+                INDENCE
+            </span>
+
+        </a>
+
+    </div>
+
+
+    <div class="footer-divider"></div>
+
+
+    <div class="footer-description">
+
+        Partner with us to build the next generation<br>
+
+        of life sciences capabilities in India.
+
+    </div>
+
+
+    <div class="footer-email">
+
+        <span class="email-icon">
+            <span></span>
+        </span>
+
+        <a href="mailto:support@indence.com">
+            support@indence.com
+        </a>
+
+    </div>
+
+
+    <div class="footer-divider"></div>
+
+
+    <div class="linkedin">
+
+        <span class="linkedin-icon">
+            in
+        </span>
+
+        <span>
+            Coming Soon
+        </span>
+
+    </div>
+
+
+    <div class="footer-divider"></div>
+
+
+    <div class="copyright">
+        © 2025 Indence. All rights reserved.
+    </div>
+
+
+</footer>
+
+
+<!-- EXISTING SITE JAVASCRIPT -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

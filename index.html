@@ -70,23 +70,23 @@
 
     <nav class="navigation">
 
-        <a href="#">
-            What We Do
-        </a>
+    <a href="what-we-do.html">
+        What We Do
+    </a>
 
-        <a href="#">
-            Our Approach
-        </a>
+    <a href="capabilities.html">
+        Capabilities
+    </a>
 
-        <a href="#">
-            Insights
-        </a>
+    <a href="our-approach.html">
+        Our Approach
+    </a>
 
-        <a href="#">
-            About Us
-        </a>
+    <a href="#">
+        About Us
+    </a>
 
-    </nav>
+</nav>
 
 
     <!-- CONTACT -->
@@ -243,334 +243,193 @@
 
 
     <!-- =====================================================
-         CAPABILITIES
+         LIFE SCIENCE CAPABILITIES
     ====================================================== -->
 
-    <section class="capabilities"
-             id="approach">
+    <style>
+        /* Life Science Capabilities - 8 card grid */
+        .life-science-capabilities {
+            display: grid !important;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            grid-template-rows: repeat(2, minmax(0, 1fr));
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border-top: 1px solid rgba(150, 160, 190, 0.28);
+            border-left: 1px solid rgba(150, 160, 190, 0.28);
+            background: #020408;
+        }
 
+        .life-science-capabilities .capability-card {
+            position: relative;
+            min-height: 315px;
+            padding: 36px 28px 42px;
+            border-right: 1px solid rgba(150, 160, 190, 0.28);
+            border-bottom: 1px solid rgba(150, 160, 190, 0.28);
+            box-sizing: border-box;
+            background: transparent;
+        }
 
-        <!-- =================================================
-             01
-        ================================================== -->
+        .life-science-capabilities .capability-number {
+            display: block;
+            margin: 0 0 38px;
+            color: #8ea4cf;
+            font-size: 11px;
+            line-height: 1;
+            letter-spacing: 0.08em;
+            font-family: 'Inter', sans-serif;
+        }
 
-        <div class="capability">
+        .life-science-capabilities .capability-icon {
+            width: 44px;
+            height: 44px;
+            margin: 0 0 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            border: 1px solid rgba(150, 160, 190, 0.38);
+            color: #AAA7FF;
+        }
 
+        .life-science-capabilities .capability-icon img {
+            width: 32px;
+            height: 32px;
+            display: block;
+            object-fit: contain;
+            opacity: 1;
+            visibility: visible;
+        }
 
+        .life-science-capabilities .capability-card h3 {
+            margin: 0 0 14px;
+            color: #f4f5f8;
+            font-family: 'Inter', sans-serif;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        .life-science-capabilities .capability-card p {
+            max-width: 290px;
+            margin: 0;
+            color: #8f9ab0;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .life-science-capabilities .capability-arrow {
+            position: absolute;
+            right: 26px;
+            bottom: 28px;
+            color: #9aa8c7;
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 1;
+        }
+
+        @media (max-width: 1000px) {
+            .life-science-capabilities {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                grid-template-rows: none;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .life-science-capabilities {
+                grid-template-columns: 1fr;
+            }
+
+            .life-science-capabilities .capability-card {
+                min-height: 285px;
+            }
+        }
+    </style>
+
+    <section class="capabilities life-science-capabilities" id="approach">
+
+        <div class="capability-card">
+            <span class="capability-number">01</span>
             <div class="capability-icon">
-
-                <!-- GLOBAL ICON -->
-
-                <svg viewBox="0 0 64 64"
-                     xmlns="http://www.w3.org/2000/svg">
-
-                    <circle
-                        cx="32"
-                        cy="32"
-                        r="22"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <ellipse
-                        cx="32"
-                        cy="32"
-                        rx="10"
-                        ry="22"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M10 32 H54"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M14 21 H50"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1"
-                    />
-
-                    <path
-                        d="M14 43 H50"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1"
-                    />
-
-                </svg>
-
+                <img src="icons/01_medical_affairs_dna.svg" alt="Medical Affairs">
             </div>
-
-
-            <div class="capability-text">
-
-                Global life sciences<br>
-
-                expertise
-
-            </div>
-
-
+            <h3>MEDICAL AFFAIRS</h3>
+            <p>Evidence generation, medical communications and scientific engagement.</p>
+            <span class="capability-arrow">→</span>
         </div>
 
-
-
-        <!-- DIVIDER -->
-
-        <div class="vertical-line"></div>
-
-
-
-        <!-- =================================================
-             02
-        ================================================== -->
-
-        <div class="capability">
-
-
+        <div class="capability-card">
+            <span class="capability-number">02</span>
             <div class="capability-icon">
-
-                <!-- OPERATORS ICON -->
-
-                <svg viewBox="0 0 64 64"
-                     xmlns="http://www.w3.org/2000/svg">
-
-                    <circle
-                        cx="32"
-                        cy="32"
-                        r="21"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M20 38
-                           C20 29 26 23 32 23
-                           C38 23 44 29 44 38"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <circle
-                        cx="32"
-                        cy="21"
-                        r="5"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M16 43
-                           C21 47 27 49 32 49
-                           C37 49 43 47 48 43"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                </svg>
-
+                <img src="icons/02_market_access_chart.svg" alt="HEOR &amp; Market Access">
             </div>
-
-
-            <div class="capability-text">
-
-                Built by operators.<br>
-
-                Designed for the AI era.
-
-            </div>
-
-
+            <h3>HEOR &amp; MARKET ACCESS</h3>
+            <p>HEOR, pricing, value dossiers and market access strategy.</p>
+            <span class="capability-arrow">→</span>
         </div>
 
-
-
-        <!-- DIVIDER -->
-
-        <div class="vertical-line"></div>
-
-
-
-        <!-- =================================================
-             03
-        ================================================== -->
-
-        <div class="capability">
-
-
+        <div class="capability-card">
+            <span class="capability-number">03</span>
             <div class="capability-icon">
-
-                <!-- FRAMEWORK ICON -->
-
-                <svg viewBox="0 0 64 64"
-                     xmlns="http://www.w3.org/2000/svg">
-
-                    <rect
-                        x="12"
-                        y="12"
-                        width="40"
-                        height="40"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <rect
-                        x="21"
-                        y="21"
-                        width="22"
-                        height="22"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M32 12 V21"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M32 43 V52"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M12 32 H21"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M43 32 H52"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                </svg>
-
+                <img src="icons/03_regulatory_affairs_file.svg" alt="Regulatory Affairs">
             </div>
-
-
-            <div class="capability-text">
-
-                Execution-driven frameworks.<br>
-
-                Built from experience.<br>
-
-                Refined through delivery.
-
-            </div>
-
-
+            <h3>REGULATORY AFFAIRS</h3>
+            <p>Global regulatory strategy, submissions, publishing and compliance.</p>
+            <span class="capability-arrow">→</span>
         </div>
 
-
-
-        <!-- DIVIDER -->
-
-        <div class="vertical-line"></div>
-
-
-
-        <!-- =================================================
-             04
-        ================================================== -->
-
-        <div class="capability">
-
-
+        <div class="capability-card">
+            <span class="capability-number">04</span>
             <div class="capability-icon">
-
-                <!-- IMPACT ICON -->
-
-                <svg viewBox="0 0 64 64"
-                     xmlns="http://www.w3.org/2000/svg">
-
-                    <path
-                        d="M10 52 H54"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <rect
-                        x="15"
-                        y="38"
-                        width="7"
-                        height="14"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <rect
-                        x="28"
-                        y="30"
-                        width="7"
-                        height="22"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <rect
-                        x="41"
-                        y="20"
-                        width="7"
-                        height="32"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M40 13 H52 V25"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                    <path
-                        d="M52 13 L38 27"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                    />
-
-                </svg>
-
+                <img src="icons/04_pharmacovigilance_shield.svg" alt="Pharmacovigilance">
             </div>
-
-
-            <div class="capability-text">
-
-                Accelerating impact.<br>
-
-                Enabling long-term value.
-
-            </div>
-
-
+            <h3>PHARMACOVIGILANCE</h3>
+            <p>Safety operations, signal detection, case processing and risk management.</p>
+            <span class="capability-arrow">→</span>
         </div>
 
+        <div class="capability-card">
+            <span class="capability-number">05</span>
+            <div class="capability-icon">
+                <img src="icons/05_clinical_development_users.svg" alt="Clinical Development">
+            </div>
+            <h3>CLINICAL DEVELOPMENT</h3>
+            <p>Clinical operations, program management and data management.</p>
+            <span class="capability-arrow">→</span>
+        </div>
+
+        <div class="capability-card">
+            <span class="capability-number">06</span>
+            <div class="capability-icon">
+                <img src="icons/06_commercial_excellence_megaphone.svg" alt="Commercial Excellence">
+            </div>
+            <h3>COMMERCIAL EXCELLENCE</h3>
+            <p>Commercial strategy, insights, marketing and omnichannel excellence.</p>
+            <span class="capability-arrow">→</span>
+        </div>
+
+        <div class="capability-card">
+            <span class="capability-number">07</span>
+            <div class="capability-icon">
+                <img src="icons/07_data_digital_ai_database.svg" alt="Data, Digital &amp; AI">
+            </div>
+            <h3>DATA, DIGITAL &amp; AI</h3>
+            <p>Data management, analytics, digital solutions and AI enablement.</p>
+            <span class="capability-arrow">→</span>
+        </div>
+
+        <div class="capability-card">
+            <span class="capability-number">08</span>
+            <div class="capability-icon">
+                <img src="icons/08_scientific_application_centers_flask.svg" alt="Scientific &amp; Application Centers">
+            </div>
+            <h3>SCIENTIFIC &amp; APPLICATION<br>CENTERS</h3>
+            <p>R&amp;D support, scientific services and application development.</p>
+            <span class="capability-arrow">→</span>
+        </div>
 
     </section>
 

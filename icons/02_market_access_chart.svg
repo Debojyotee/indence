@@ -1,0 +1,29 @@
+<svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+>
+    <g
+        stroke="#AAA7FF"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <!-- Baseline -->
+        <path d="M12 52H54"/>
+
+        <!-- Bar 1 -->
+        <rect x="15" y="38" width="6" height="14" rx="1"/>
+
+        <!-- Bar 2 -->
+        <rect x="26" y="30" width="6" height="22" rx="1"/>
+
+        <!-- Bar 3 -->
+        <rect x="37" y="20" width="6" height="32" rx="1"/>
+
+        <!-- Bar 4 -->
+        <rect x="48" y="10" width="6" height="42" rx="1"/>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+>
+    <g
+        stroke="#AAA7FF"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <!-- Top ellipse -->
+        <ellipse cx="32" cy="15" rx="19" ry="7"/>
+
+        <!-- Database sides -->
+        <path d="M13 15V32C13 36 21 39 32 39C43 39 51 36 51 32V15"/>
+        <path d="M13 32V49C13 53 21 56 32 56C43 56 51 53 51 49V32"/>
+
+        <!-- Database separator -->
+        <path d="M13 32C13 36 21 39 32 39C43 39 51 36 51 32"/>
+    </g>
+</svg>

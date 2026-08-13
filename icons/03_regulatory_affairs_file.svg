@@ -1,0 +1,29 @@
+<svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+>
+    <g
+        stroke="#AAA7FF"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <!-- Document -->
+        <path d="M16 8H39L50 19V56H16V8Z"/>
+
+        <!-- Folded corner -->
+        <path d="M39 8V19H50"/>
+
+        <!-- Document lines -->
+        <path d="M23 27H43"/>
+        <path d="M23 33H43"/>
+        <path d="M23 39H43"/>
+        <path d="M23 45H37"/>
+
+        <!-- Small side detail -->
+        <path d="M20 27V45"/>
+    </g>
+</svg>

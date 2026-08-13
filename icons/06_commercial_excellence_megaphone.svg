@@ -1,0 +1,27 @@
+<svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+>
+    <g
+        stroke="#AAA7FF"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <!-- Megaphone body -->
+        <path d="M14 27L42 16V42L14 31V27Z"/>
+
+        <!-- Handle -->
+        <path d="M20 32L23 48H31L28 35"/>
+
+        <!-- Rear section -->
+        <path d="M14 27H9V34H14"/>
+
+        <!-- Sound waves -->
+        <path d="M47 23C51 26 51 32 47 35"/>
+        <path d="M51 18C58 23 58 35 51 40"/>
+    </g>
+</svg>

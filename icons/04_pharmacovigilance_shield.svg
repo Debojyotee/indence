@@ -1,0 +1,23 @@
+<svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+>
+    <g
+        stroke="#AAA7FF"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <!-- Shield outer -->
+        <path d="M32 7L51 14V29C51 41 43 51 32 57C21 51 13 41 13 29V14L32 7Z"/>
+
+        <!-- Shield inner -->
+        <path d="M32 13L45 18V29C45 38 40 45 32 50C24 45 19 38 19 29V18L32 13Z"/>
+
+        <!-- Check -->
+        <path d="M24 31L29 36L40 24"/>
+    </g>
+</svg>

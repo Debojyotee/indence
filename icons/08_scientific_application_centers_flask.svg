@@ -1,0 +1,31 @@
+<svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+>
+    <g
+        stroke="#AAA7FF"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <!-- Flask neck -->
+        <path d="M27 9H37"/>
+        <path d="M28 9V25L14 48C12 52 15 55 19 55H45C49 55 52 52 50 48L36 25V9"/>
+
+        <!-- Neck details -->
+        <path d="M28 16H36"/>
+
+        <!-- Liquid -->
+        <path d="M18 43H46"/>
+
+        <!-- Liquid surface -->
+        <path d="M20 39C24 37 27 41 32 39C37 37 40 41 44 39"/>
+
+        <!-- Small bubbles -->
+        <circle cx="28" cy="34" r="1.5"/>
+        <circle cx="38" cy="31" r="1.5"/>
+    </g>
+</svg>

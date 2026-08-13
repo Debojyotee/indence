@@ -1,0 +1,27 @@
+<svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+>
+    <g
+        stroke="#AAA7FF"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <!-- Left DNA strand -->
+        <path d="M18 8C18 18 46 18 46 32C46 46 18 46 18 56"/>
+
+        <!-- Right DNA strand -->
+        <path d="M46 8C46 18 18 18 18 32C18 46 46 46 46 56"/>
+
+        <!-- DNA connecting strands -->
+        <path d="M21 14H43"/>
+        <path d="M20 24H44"/>
+        <path d="M20 34H44"/>
+        <path d="M21 44H43"/>
+        <path d="M21 54H43"/>
+    </g>
+</svg>
